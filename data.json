@@ -1,0 +1,443 @@
+{
+  "categoies": [
+    {
+      "id": 1,
+      "name": "Trái Cây"
+    },
+    {
+      "id": 2,
+      "name": "Thịt Trứng"
+    },
+    {
+      "id": 3,
+      "name": "Đồ Uống Có Cồn"
+    },
+    {
+      "id": 4,
+      "name": "Hàng Khô"
+    },
+    {
+      "id": 5,
+      "name": "Phi Thực Phẩm"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "image": "./img/product/vietquat.png",
+      "name": "Việt Quất",
+      "price": 145900,
+      "detail": "Xuất xứ: NEW ZEALAND",
+      "cat_id": 1
+    },
+    {
+      "id": 2,
+      "image": "./img/product/chuoi.png",
+      "name": "CHUỐI FOHLA",
+      "price": 25700,
+      "detail": "Xuất xứ: VIỆT NAM",
+      "cat_id": 1
+    },
+    {
+      "id": 3,
+      "image": "./img/product/oi.png",
+      "name": "ỔI PHÚC LỘC THỌ",
+      "price": 56000,
+      "detail": "Xuất xứ: NEW VIỆT NAM",
+      "cat_id": 1
+    },
+    {
+      "id": 4,
+      "image": "./img/product/cam-navel_grande.png",
+      "name": "CAM NAVEL",
+      "price": 89000,
+      "detail": "Xuất xứ: VIỆT NAM",
+      "cat_id": 1
+    },
+    {
+      "id": 5,
+      "image": "./img/product/oliu-xanh.png",
+      "name": "OLIU XANH TÁCH HẠT",
+      "price": 62500,
+      "detail": "Xuất xứ: Tây Ban Nha",
+      "cat_id": 1
+    },
+    {
+      "id": 6,
+      "image": "./img/product/khoailangvang.png",
+      "name": "KHOAI TÂY VÀNG MỸ",
+      "price": 37500,
+      "detail": "Xuất xứ: Mỹ",
+      "cat_id": 1
+    },
+    {
+      "id": 7,
+      "image": "./img/product/AnyConv.com__thit-mat-ong.png",
+      "name": "THỊT NGUỘI TẨM MẬT ONG",
+      "price": 79900,
+      "detail": "Xuất xứ: Việt Nam",
+      "cat_id": 2
+    },
+    {
+      "id": 8,
+      "image": "./img/product/AnyConv.com__thit-bo-uc-xay.png",
+      "name": "THỊT BÒ XAY ĐÔNG LẠNH",
+      "price": 56600,
+      "detail": "Xuất xứ: Úc",
+      "cat_id": 2
+    },
+    {
+      "id": 9,
+      "image": "./img/product/thit-bo-cebon-xay-300g_grande.png",
+      "name": "THỊT BÒ CENBON XAY",
+      "price": 105500,
+      "detail": "Xuất xứ: Việt Nam",
+      "cat_id": 2
+    },
+    {
+      "id": 10,
+      "image": "./img/product/AnyConv.com__bia-thu-cong.png",
+      "name": "BIA THỦ CÔNG BELGO",
+      "price": 55900,
+      "detail": "Xuất xứ: Việt Nam",
+      "cat_id": 3
+    },
+    {
+      "id": 11,
+      "image": "./img/product/AnyConv.com__bia-tiger.png",
+      "name": "BIA TIGER LAGER",
+      "price": 19900,
+      "detail": "Xuất xứ: Việt Nam",
+      "cat_id": 3
+    },
+    {
+      "id": 12,
+      "image": "./img/product/AnyConv.com__bia-white.png",
+      "name": "BIA WHITE HOEGAARDEN",
+      "price": 34500,
+      "detail": "Xuất xứ: Việt Nam",
+      "cat_id": 3
+    },
+    {
+      "id": 13,
+      "image": "./img/product/AnyConv.com__bia-blonde.png",
+      "name": "BIA  BLONDE ROOSTER BEERS",
+      "price": 41500,
+      "detail": "Xuất xứ: Việt Nam",
+      "cat_id": 3
+    },
+    {
+      "id": 14,
+      "image": "./img/product/AnyConv.com__bia-heineken.png",
+      "name": "BIA HEINEKEN",
+      "price": 27500,
+      "detail": "Xuất xứ: Việt Nam",
+      "cat_id": 3
+    },
+    {
+      "id": 15,
+      "image": "./img/product/AnyConv.com__bia-corona.png",
+      "name": "BIA CORONA",
+      "price": 45900,
+      "detail": "Xuất xứ: Mexico",
+      "cat_id": 3
+    },
+    {
+      "id": 16,
+      "image": "./img/product/chiet-xuat-vanilia.png",
+      "name": "CHIẾT XUẤT VANILLA",
+      "price": 225000,
+      "detail": "Xuất xứ: Úc",
+      "cat_id": 4
+    },
+    {
+      "id": 17,
+      "image": "./img/product/AnyConv.com__bot-vo-hat-ma.png",
+      "name": "BỘT VÕ HẠT MÃ ĐỀ",
+      "price": 145900,
+      "detail": "Xuất xứ: NEW ZEALAND",
+      "cat_id": 4
+    },
+    {
+      "id": 18,
+      "image": "./img/product/AnyConv.com__bun-tuoi.png",
+      "name": "BÚN TƯƠI MEKONG RIVER",
+      "price": 26500,
+      "detail": "Xuất xứ: Việt Nam",
+      "cat_id": 4
+    },
+    {
+      "id": 19,
+      "image": "./img/product/AnyConv.com__vien-nen-cafe.png",
+      "name": "VIÊN NÉN CAFE ARPEGGIO",
+      "price": 235000,
+      "detail": "Xuất xứ: NEW ZEALAND",
+      "cat_id": 4
+    },
+    {
+      "id": 20,
+      "image": "./img/product/AnyConv.com__tui-dung-hang-sieu-thi_grande.png",
+      "name": "TÚI ĐỰNG HÀNG SIÊU THỊ",
+      "price": 24500,
+      "detail": "Xuất xứ: Việt Nam",
+      "cat_id": 5
+    },
+    {
+      "id": 21,
+      "image": "./img/product/AnyConv.com__nuoc-lau-kinh-lemon.png",
+      "name": "NƯỚC LAU KÍNH LEMON",
+      "price": 175000,
+      "detail": "Xuất xứ: Úc",
+      "cat_id": 5
+    },
+    {
+      "name": "huy",
+      "price": "1",
+      "image": "./img/product/AnyConv.com__nuoc-cot-dua.png",
+      "detail": "thịt",
+      "id": 22
+    }
+  ],
+  "orders": [
+    {
+      "customer_name": "Nguyễn Quang Huy",
+      "customer_address": "258/3 Dương Quảng Hàm, Phường 5, Quận Gò Vấp, Thành phố Hồ Chí Minh",
+      "customer_email": "huydeptrai19062002@gmail.com",
+      "customer_phone": "0336406274",
+      "create_date": "12/09/2022",
+      "status": "Thành công"
+    },
+    {
+      "customer_name": "Nguyễn Quang Vinh",
+      "customer_address": "Thôn Hiền Lương, Cam An Bắc, Cam Lâm, Khánh Hoà",
+      "customer_email": "vinhquang7892@gmail.com",
+      "customer_phone": "0336406274",
+      "create_date": "20/09/2022",
+      "status": "Thành công"
+    },
+    {
+      "customer_name": "Nguyễn Thị Thu Thảo",
+      "customer_address": "Tô Ký, Quận 12, TP. Hồ Chí Minh",
+      "customer_email": "thao125@gmail.com",
+      "customer_phone": "0336406274",
+      "create_date": "19/09/2022",
+      "status": "Thành công"
+    },
+    {
+      "customer_name": "Nguyễn Cao Thăng",
+      "customer_address": "213 Nguyễn oang, Quận Gò Vấp, Thành phố Hồ Chí Minh",
+      "customer_email": "thangdeptrai19@gmail.com",
+      "customer_phone": "0336406274",
+      "create_date": "22/09/2022",
+      "status": "Thành công"
+    },
+    {
+      "customer_name": "Nguyễn Hữu Hải",
+      "customer_address": "12/98 Tân sơn,Phạm văn Chiêu, Quận Gò Vấp, Thành phố Hồ Chí Minh",
+      "customer_email": "huuhai2002@gmail.com",
+      "customer_phone": "0336406274",
+      "create_date": "23/09/2022",
+      "status": "Thành công"
+    },
+    {
+      "customer_name": "2",
+      "customer_address": "2",
+      "customer_email": "2",
+      "customer_phone": "2",
+      "create_date": [
+        "2",
+        "22-",
+        "9-27T",
+        "8:28:11.185Z"
+      ],
+      "status": "Chờ xác nhận",
+      "id": 1
+    },
+    {
+      "customer_name": "22",
+      "customer_address": "11",
+      "customer_email": "22",
+      "customer_phone": "11",
+      "create_date": [
+        "2",
+        "22-",
+        "9-27T",
+        "8:3",
+        ":3",
+        ".571Z"
+      ],
+      "status": "Chờ xác nhận",
+      "id": 2
+    },
+    {
+      "customer_name": "huy",
+      "customer_address": "11",
+      "customer_email": "nguyenquanghuy19062002@gmmail.com",
+      "customer_phone": "0366406274",
+      "create_date": [
+        "2",
+        "22-",
+        "9-27T",
+        "8:3",
+        ":56.329Z"
+      ],
+      "status": "Chờ xác nhận",
+      "id": 3
+    },
+    {
+      "customer_name": "2",
+      "customer_address": "22",
+      "customer_email": "22",
+      "customer_phone": "22",
+      "create_date": [
+        "Tue, 27 Sep 2",
+        "22 ",
+        "8:35:",
+        "4 GMT"
+      ],
+      "status": "Chờ xác nhận",
+      "id": 4
+    },
+    {
+      "customer_name": "12222",
+      "customer_address": "2222",
+      "customer_email": "1111",
+      "customer_phone": "1111",
+      "create_date": [
+        "Tue, 27 Sep 2",
+        "22 ",
+        "8:48:34 GMT"
+      ],
+      "status": "Chờ xác nhận",
+      "id": 5
+    },
+    {
+      "customer_name": "huy",
+      "customer_address": "123",
+      "customer_email": "khongbietthang0@gmail.com",
+      "customer_phone": "123",
+      "create_date": [
+        "Tue, 27 Sep 2",
+        "22 ",
+        "8:52:",
+        "2 GMT"
+      ],
+      "status": "Chờ xác nhận",
+      "id": 6
+    },
+    {
+      "customer_name": "huy",
+      "customer_address": "1",
+      "customer_email": "josephhuy192002@gmail.com",
+      "customer_phone": "1",
+      "create_date": [
+        "Fri, 3",
+        " Sep 2",
+        "22 ",
+        "8:44:59 GMT"
+      ],
+      "status": "Chờ xác nhận",
+      "id": 7
+    },
+    {
+      "customer_name": "huy",
+      "customer_address": "258/1 dqh",
+      "customer_email": "josephhuy19082002@gmail.com",
+      "customer_phone": "1111",
+      "create_date": [
+        "Thu, ",
+        "6 Oct 2",
+        "22 ",
+        "4:18:11 GMT"
+      ],
+      "status": "Chờ xác nhận",
+      "id": 8
+    },
+    {
+      "customer_name": "huy",
+      "customer_address": "258/3 dqh",
+      "customer_email": "huydeptrai19062002@gmail.com",
+      "customer_phone": "123",
+      "create_date": [
+        "Fri, ",
+        "7 Oct 2",
+        "22 ",
+        "7:56:26 GMT"
+      ],
+      "status": "Chờ xác nhận",
+      "id": 9
+    }
+  ],
+  "order_detail": [
+    {
+      "id": 1,
+      "order_id": 1,
+      "product_id": 5,
+      "quantity": 2,
+      "unti_price": 98000
+    },
+    {
+      "id": 2,
+      "order_id": 2,
+      "product_id": 1,
+      "quantity": 1,
+      "unti_price": 56000
+    },
+    {
+      "id": 3,
+      "order_id": 3,
+      "product_id": 25,
+      "quantity": 3,
+      "unti_price": 256000
+    },
+    {
+      "order_id": 7,
+      "product_id": 1,
+      "quantity": 3,
+      "unti_price": 145900,
+      "id": 4
+    },
+    {
+      "order_id": 7,
+      "product_id": 4,
+      "quantity": 1,
+      "unti_price": 89000,
+      "id": 5
+    },
+    {
+      "order_id": 7,
+      "product_id": 15,
+      "quantity": 2,
+      "unti_price": 45900,
+      "id": 6
+    },
+    {
+      "order_id": 7,
+      "product_id": 7,
+      "quantity": 1,
+      "unti_price": 79900,
+      "id": 7
+    },
+    {
+      "order_id": 8,
+      "product_id": 9,
+      "quantity": 2,
+      "unti_price": 105500,
+      "id": 8
+    },
+    {
+      "order_id": 8,
+      "product_id": 11,
+      "quantity": 1,
+      "unti_price": 19900,
+      "id": 9
+    },
+    {
+      "order_id": 9,
+      "product_id": 22,
+      "quantity": 1,
+      "unti_price": 1,
+      "id": 10
+    }
+  ]
+}

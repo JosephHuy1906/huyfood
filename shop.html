@@ -1,0 +1,527 @@
+<!doctype html>
+<html class="no-js" lang="">
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Huy Food Store</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="shortcut icon" type="image/x-icon" href="img/logo2.png">
+       
+		<!-- all css here -->
+		<!-- bootstrap v3.3.6 css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- animate css -->
+        <link rel="stylesheet" href="css/animate.css">
+		<!-- jquery-ui.min css -->
+        <link rel="stylesheet" href="css/jquery-ui.min.css">
+		<!-- meanmenu css -->
+        <link rel="stylesheet" href="css/meanmenu.min.css">
+        <!-- nivo slider css -->
+        <link rel="stylesheet" href="lib/css/nivo-slider.css" />
+		<!-- owl.carousel css -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+		<!-- Simple Lence css --> 
+		<link rel="stylesheet" href="css/jquery.simpleLens.css">
+		<!-- font-awesome css -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- fontello css -->
+        <link rel="stylesheet" href="css/fontello.css">
+		<!-- latofonts css -->
+        <link rel="stylesheet" href="css/latofonts.css">
+		<!-- style css -->
+		<link rel="stylesheet" href="style.css">
+		<!-- responsive css -->
+        <link rel="stylesheet" href="css/responsive.css">
+		<!-- modernizr js -->
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+		<div class="kengang"></div>
+		<div class="header-area style-2">
+			<div class="container">
+			  <div class="row">
+				<!-- Logo Start -->
+				<div class="col-md-2 col-sm-6">
+				  <div class="logo">
+					<a href="index.html"
+					  ><img src="img/logo.png" alt="69 Fashion"
+					/></a>
+				  </div>
+				</div>
+				<!-- Logo End -->
+				<!-- MainMenu Start -->
+				<div class="col-md-7 hidden-sm hidden-xs">
+				  <div class="mainmenu">
+					<nav>
+					  <ul>
+						<li><a href="index.html">Trang Chủ</a></li>
+						<li><a href="shop.html">Sản Phẩm</a></li>
+						<li><a href="about.html">Về Chúng Tôi</a></li>
+						<li><a href="blog.html">Bài Viết</a></li>
+
+					  </ul>
+					</nav>
+				  </div>
+				</div>
+				<!-- MainMenu End -->
+				<!-- Cart-Total Start -->
+				<div class="col-md-3 col-sm-6">
+				  <div class="cart-total">
+					<ul>
+					  <li>
+						<a href="#">
+						  <span class="cart-icon"
+							><img src="img/shopping-bag.png" /><sup class="demSP"></sup></span
+						  >
+						  <span class="cart-brief">Giỏ Hàng &emsp;</span>
+						</a>
+						<div class="mini-cart-content">
+							<div class="cart-show"></div>
+							<div class="cart-inner-bottom">
+								<a href="cart.html" class="cart-button-top cart-left">View Cart</a >
+								<a href="checkout.html" class="cart-button-top">Checkout</a>
+							  </div>
+						</div>
+					  </li>
+					</ul>
+				  </div>
+				</div>
+				<!-- Cart-Total End -->
+			  </div>
+			</div>
+		  </div>
+		  <!-- Header END -->
+		</header>
+		<!-- HEADER-AREA END -->
+		<!-- MOBILE-MENU-AREA START -->
+		<div class="mobile-menu-area hidden-md hidden-lg">
+		  <div class="container">
+			<div class="row">
+			  <div class="col-sm-12 col-xs-12">
+				<div class="mobile-menu">
+				  <nav id="dropdown">
+					<ul>
+					  <li><a href="index.html">Trang Chủ</a></li>
+					  <li><a href="shop.html">Sản Phẩm</a></li>
+					  <li><a href="about.html">Về Chúng Tôi</a></li>
+					  <li><a href="blog.html">Bài Viết</a></li>
+
+					</ul>
+				  </nav>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+        <section class="content shop-page">
+			<div class="shop-category-menu">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="shop-menu">
+								<nav>
+									<ul id="category_menu">
+										<!-- <li><a href="#">Trái Cây</a></li>
+										<li><a href="#">Thịt Trứng</a></li>
+										<li><a href="#">Đồ Uống cồn</a></li>
+										<li><a href="#">Hàng Khô</a></li>
+										<li><a href="#">Phi Thực Phẩm</a></li> -->
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- SHOP-CATEGROY-MENU END -->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-12">
+						<div class="widget-area">
+							<h2 class="filter-title-1">Tìm Kiếm</h2>
+							<aside class="widget shop-filter">
+								<h2 class="filter-title-2">tìm kiếm theo giá</h2>
+								<div class="price_filter">
+									<div id="slider-range"></div>
+									<div class="price_slider_amount">
+										<input type="text" id="amount" name="price"  placeholder="Add Your Price" />
+										<input type="submit"  value="Price:"/>  
+									</div>
+								</div>
+							</aside>
+							
+						</div>
+						
+					</div>
+					<div class="col-md-9 col-sm-12">
+						<!-- FEATURED-PRODUCTS-AREA START -->
+						<div class="featured-products-area">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="filter-menu">
+										<div class="short">
+											<label>
+												<span><i class="fa fa-sort-amount-desc"></i></span>
+												Sort by :
+											</label>
+											<select>
+												<option>Name (A - Z)</option>
+												<option>Name (Z - A)</option>
+												<option>Model (Z - A)</option>
+												<option>Model (A - Z)</option>
+											</select>
+										</div>
+										<div class="limit">
+											<label>Show :</label>
+											<select>
+												<option>09</option>
+												<option>15</option>
+												<option>20</option>
+												<option>30</option>
+												<option>40</option>
+											</select>
+										</div>
+										<div class="tab-menu">
+											<nav>
+												<ul role="tablist">
+													<li role="presentation" class="active">
+														<a href="#display-1-1" role="tab" data-toggle="tab" title="Grid View"><i class="fa fa-th"></i></a>
+													</li>
+													<li role="presentation">
+														<a href="#display-1-2" role="tab" data-toggle="tab" title="List View"><i class="fa fa-bars"></i></a>
+													</li>
+												</ul>
+											</nav>
+										</div>
+										<div class="shop-pagination">
+											<nav>
+												<ul>
+													<li><a href="#"><i class="fa fa-caret-left"></i></a></li>
+													<li class="active"><a href="#">1</a></li>
+													<li><a href="#">2</a></li>
+													<li><a href="#">3</a></li>
+													<li><a href="#">4</a></li>
+													<li><a href="#">. . .</a></li>
+													<li class="active"><a href="#"><i class="fa fa-caret-right"></i></a></li>
+												</ul>
+											</nav>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-content">
+								<div role="tabpanel" class="tab-pane fade in  active" id="display-1-1">
+									<div class="row" id="showProduct">
+										<!-- Single-Product Start -->
+										
+									
+									</div>
+								</div>
+								<div role="tabpanel" class="tab-pane fade" id="display-1-2">
+									<div class="row">
+										<div class="listview">
+											<!-- Single-Product Start -->
+											<div class="single-product">
+												<div class="col-sm-4 col-xs-12">
+													<div class="product-img">
+														<div class="product-sticker">
+															<div class="label-new">
+																<span class="new">New</span>
+															</div>
+															<div class="label-parcent">
+																<span class="parcent">- 55%</span>
+															</div>
+														</div>
+														<a class="pro-image" href="#">
+															<img class="primary-image" src="./img/product/AnyConv.com__thit-mat-ong.png" alt="#">
+														
+														</a>
+													</div>
+												</div>
+												<div class="col-sm-8 col-xs-12">
+													<div class="product-content">
+														<h2 class="product-name">
+															<a href="#">THỊT NGUỘI TẨM MẬT ONG</a>
+														</h2>
+														<div class="rating-review">
+															<div class="pro-rating">
+																<a href="#"><i class="fa fa-star"></i></a>
+																<a href="#"><i class="fa fa-star"></i></a>
+																<a href="#"><i class="fa fa-star"></i></a>
+																<a href="#"><i class="fa fa-star-half-o"></i></a>
+																<a href="#"><i class="fa fa-star-o"></i></a>
+															</div>
+															<a class="reviews" href="#">6 Reviews</a>
+															<a class="add-review" href="#">Add Your Review</a>
+														</div>
+														<div class="stock">
+															<a href="#">In Stock</a>
+														</div>
+														<div class="price-box">
+															<span class="old-price">159900Vnđ</span>
+															<span class="new-price">79900Vnđ</span>
+														</div>
+														<div class="description">
+															<p>Nunc facilisis sagittis ullamcorper. Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus. Sed et lorem nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices Curae...</p>
+														</div>
+														<div class="pro-actions">
+															<a class="action-btn action-btn-1" href="cart.html"><i class="pe-7s-cart"></i>Add to Cart</a>
+															<a class="action-btn" href="wishlist.html" data-toggle="tooltip" data-original-title="Add to Wishlist"><i class="pe-7s-like"></i></a>
+															<a class="action-btn" href="#" data-toggle="tooltip" data-original-title="Compare"><i class="pe-7s-repeat"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!-- Single-Product End -->
+											<!-- Single-Product Start -->
+											<div class="single-product">
+												<div class="col-sm-4 col-xs-12">
+													<div class="product-img">
+														<div class="product-sticker">
+															<div class="label-parcent">
+																<span class="parcent">Sale</span>
+															</div>
+														</div>
+														<a class="pro-image" href="#">
+															<img class="primary-image" src="./img/product/AnyConv.com__thit-bo-uc-xay.png" alt="#">
+															
+														</a>
+													</div>
+												</div>
+												<div class="col-sm-8 col-xs-12">
+													<div class="product-content">
+														<h2 class="product-name">
+															<a href="#">THỊT BÒ XAY ĐÔNG LẠNH</a>
+														</h2>
+														<div class="rating-review">
+															<div class="pro-rating">
+																<a href="#"><i class="fa fa-star"></i></a>
+																<a href="#"><i class="fa fa-star"></i></a>
+																<a href="#"><i class="fa fa-star"></i></a>
+																<a href="#"><i class="fa fa-star-half-o"></i></a>
+																<a href="#"><i class="fa fa-star-o"></i></a>
+															</div>
+															<a class="reviews" href="#">6 Reviews</a>
+															<a class="add-review" href="#">Add Your Review</a>
+														</div>
+														<div class="stock">
+															<a href="#">In Stock</a>
+														</div>
+														<div class="price-box">
+															<span class="old-price">156600Vnđ</span>
+															<span class="new-price">56600Vnđ</span>
+														</div>
+														<div class="description">
+															<p>Nunc facilisis sagittis ullamcorper. Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus. Sed et lorem nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices Curae...</p>
+														</div>
+														<div class="pro-actions">
+															<a class="action-btn action-btn-1" href="cart.html"><i class="pe-7s-cart"></i>Add to Cart</a>
+															<a class="action-btn" href="wishlist.html" data-toggle="tooltip" data-original-title="Add to Wishlist"><i class="pe-7s-like"></i></a>
+															<a class="action-btn" href="#" data-toggle="tooltip" data-original-title="Compare"><i class="pe-7s-repeat"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!-- Single-Product End -->
+											<!-- Single-Product Start -->
+											<div class="single-product">
+												<div class="col-sm-4 col-xs-12">
+													<div class="product-img">
+														<div class="product-sticker">
+															<div class="label-parcent">
+																<span class="parcent">- 25%</span>
+															</div>
+														</div>
+														<a class="pro-image" href="#">
+															<img class="primary-image" src="./img/product/thit-bo-cebon-xay-300g_grande.png" alt="#">
+														
+														</a>
+													</div>
+												</div>
+												<div class="col-sm-8 col-xs-12">
+													<div class="product-content">
+														<h2 class="product-name">
+															<a href="#">THỊT BÒ CENBON XAY</a>
+														</h2>
+														<div class="rating-review">
+															<div class="pro-rating">
+																<a href="#"><i class="fa fa-star"></i></a>
+																<a href="#"><i class="fa fa-star"></i></a>
+																<a href="#"><i class="fa fa-star"></i></a>
+																<a href="#"><i class="fa fa-star-half-o"></i></a>
+																<a href="#"><i class="fa fa-star-o"></i></a>
+															</div>
+															<a class="reviews" href="#">6 Reviews</a>
+															<a class="add-review" href="#">Add Your Review</a>
+														</div>
+														<div class="stock">
+															<a href="#">In Stock</a>
+														</div>
+														<div class="price-box">
+															<span class="old-price">155500Vnđ</span>
+															<span class="new-price">105500Vnđ</span>
+														</div>
+														<div class="description">
+															<p>Nunc facilisis sagittis ullamcorper. Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus. Sed et lorem nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices Curae...</p>
+														</div>
+														<div class="pro-actions">
+															<a class="action-btn action-btn-1" href="cart.html"><i class="pe-7s-cart"></i>Add to Cart</a>
+															<a class="action-btn" href="wishlist.html" data-toggle="tooltip" data-original-title="Add to Wishlist"><i class="pe-7s-like"></i></a>
+															<a class="action-btn" href="#" data-toggle="tooltip" data-original-title="Compare"><i class="pe-7s-repeat"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!-- Single-Product End -->
+										
+											<!-- Single-Product End -->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- FEATURED-PRODUCTS-AREA END -->
+					</div>
+				</div>
+			</div>
+			<br><br>
+        </section>
+		<!-- FOOTER-AREA START -->
+		<footer class="footer-area">
+			<!-- Footer-Top-Area Start -->
+			<div class="footer-top-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="footer-top">
+								<div class="footer-logo">
+									<img src="img/logo.png" alt="" />
+								</div>
+								<p>Sức khoẻ của bạn chính là sức khoẻ của chúng tôi.</p>
+								<div class="social-media">
+									<a href=""><i class="fa fa-twitter"></i></a>
+									<a href=""><i class="fa fa-google-plus"></i></a>
+									<a href=""><i class="fa fa-facebook"></i></a>
+									<a href=""><i class="fa fa-instagram"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Footer-Top-Area End -->
+			<!-- Footer-Middle-Area Start -->
+			<div class="footer-middle-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-4 col-sm-4">
+							<div class="single-footer footer-about">
+								<h4 class="widget-title title-top-border">Liên Hệ Với Chúng Tôi</h4>
+								<ul>
+									<li>
+										<i class="pe-7s-map-marker"></i>
+										<span>Quận Gò Vps, Thành phố Hồ Chí Minh</span><br>
+										<span> 258/3 Dương Quảng Hàm</span>
+									</li>
+									<li>
+										<i class="pe-7s-call"></i>
+										<span>0961022334</span><br> 
+										<span>0336406274</span>
+										
+									</li>
+									<li>
+										<i class="pe-7s-mail-open"></i>
+										
+										<span>huynqps16918@gmail.com</span><br> 
+										<span>josephhuy19062002@gmail.com</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-4 col-sm-4"></div>
+						<div class="col-lg-2 col-md-4 col-sm-4">
+							<div class="single-footer footer-menu">
+								<h4 class="widget-title title-top-border">tài khoản</h4>
+								<nav>
+									<ul>
+										<li><a href="#">Tài Khoản Của Tôi</a></li>
+								
+										<li><a href="#">Địa Chỉ</a></li>
+		
+										<li><a href="#">Lịch Sử Thanh Toán</a></li>
+										<li><a href="#">Đơn Hàng Của Tôi</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-4 col-sm-4"></div>
+						<div class="col-lg-3 col-md-4 col-sm-4">
+							<div class="single-footer newslatter">
+								<h4 class="widget-title title-top-border">Góp Ý</h4>
+								<p>Mọi góp ý của khách hàng chúng tôi sẽ ghi nhận tất cả.</p>
+								<form action="#">
+									<input type="text" name="email" placeholder="Shop rất nhiệt tình..." />
+									<input type="submit" value="Gửi" />
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Footer-Middle-Area End -->
+			<!-- Copyright-Area Start -->
+			<div class="copyright-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8">
+							<div class="copyright">
+								<p>Copyright &copy; <a href="#" target="_blank"><b> Codecarnival </b></a> All rights reserved.</p>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="payment">
+								<a href="#"><i class="fa fa-cc-paypal"></i></a>
+								<a href="#"><i class="fa fa-cc-visa"></i></a>
+								<a href="#"><i class="fa fa-cc-mastercard"></i></a>
+								<a href="#"><i class="fa fa-cc-stripe"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Copyright-Area End -->
+		</footer>
+		<!-- FOOTER-AREA END -->
+
+
+        <!-- all js here -->
+        <!-- jquery latest version -->
+        <script src="js/vendor/jquery-1.12.0.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Nivo slider js -->        
+        <script src="lib/js/jquery.nivo.slider.js"></script>
+        <!-- owl.carousel js -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- jquery-ui js -->
+        <script src="js/jquery-ui.min.js"></script>
+        <!-- countdon.min js -->
+        <script src="js/countdon.min.js"></script>
+        <!-- jquery.meanmenu js -->
+        <script src="js/jquery.meanmenu.js"></script>
+        <!-- Simple Lence JS -->
+        <script src="js/jquery.simpleLens.min.js"></script>
+        <!-- wow js -->
+        <script src="js/wow.min.js"></script>
+        <!-- plugins js -->
+        <script src="js/plugins.js"></script>
+        <!-- main js -->
+        <script src="js/main.js"></script>
+		<script src="js/json/showProduct.js"></script>
+		<script src="js/json/showCategory.js"></script>
+    </body>
+</html>
+<script src="js/json/index.js"></script>
